@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+  text-align: center;
+  background-image: url(./tic-tac-toe.jpg!d);
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .container {
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .box {
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0  5px 5px rgba(82, 10, 69, 0.353);
+    font-size: 30px;
+    color: #012a76;
+    background-color: #f3d2f7;
+    cursor: pointer;
+  }
+  .box:hover{
+    background-color: #fdb3f0;
+  }
+  h1{
+    color: #012a76;
+  }
+  #reset-btn {
+    padding: 10px;
+    width:85px;
+    font-size: 15px;
+    background-color: #f292d3;
+    color:  #012a76;
+    font-weight: 550;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  #reset-btn:hover{
+    background-color: #f998d9;
+    border: 1px solid  #e66c99;
+  }
+  #new-btn {
+    padding: 10px;
+    width:85px;
+    font-size: 15px;
+    background-color: #f292d3;
+    color:  #012a76;
+    font-weight: 550;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  #msg {
+    color:#012a76 ;
+    font-size: 28px;
+    font-family: sans-serif;
+  }
+  .msg-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .hide {
+    display: none;
+  }
